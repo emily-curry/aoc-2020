@@ -10,6 +10,10 @@ internal class InputReaderImpl(puzzleId: String) : InputReader {
         rawText = f.readText()
     }
 
+    override fun toString(): String {
+        return rawText
+    }
+
     override fun toStringList(): List<String> {
         return rawText.split("\n")
     }
