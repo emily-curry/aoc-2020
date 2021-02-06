@@ -18,6 +18,6 @@ class Puzzle08(input: InputReader) : PuzzleRunner(input) {
         val debugger = ConsoleDebugger(input.toStringList())
         val workingConsole = debugger.createWorkingConsole()
         val workingAccumulatorValue = workingConsole.accumulator
-        println("Part 1: Value of accumulator at bootloader completion was [ $workingAccumulatorValue ]")
+        println("Part 2: Value of accumulator at bootloader completion was [ $workingAccumulatorValue ]")
     }
 }

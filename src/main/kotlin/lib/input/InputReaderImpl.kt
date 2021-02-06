@@ -21,4 +21,8 @@ internal class InputReaderImpl(puzzleId: String) : InputReader {
     override fun toIntList(): List<Int> {
         return toStringList().map { x -> x.toInt() }
     }
+
+    override fun toLongList(): List<Long> {
+        return toStringList().map { x -> x.toLong() }
+    }
 }

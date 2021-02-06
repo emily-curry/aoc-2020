@@ -6,4 +6,6 @@ interface InputReader {
     fun toStringList(): List<String>
 
     fun toIntList(): List<Int>
+
+    fun toLongList(): List<Long>
 }
